@@ -2,12 +2,14 @@
 #include "average.h"
 
 int main(void) {
-	int payments[5] = {1,2,3,4,5};
-	if(average(payments)==3) {
-		printf("15の平均:テスト成功%d\n", average(payments));
-	} else {
-		printf("15の平均:テスト失敗%d\n", average(payments));
+	int payments[5], i, ave;
+	for(i=0; i<5; i++) {
+		scanf("%d", &payments[i]);
 	}
+	
+	ave = average(payments);
+	printf("平均: %d\n", ave);
+	
 
 	return 0;
 }
