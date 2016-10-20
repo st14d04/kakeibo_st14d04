@@ -4,7 +4,7 @@
 int sum(int payments[]){
 	int result = 0;
 	int i;
-	for(i=0;i<=2;i++){
+	for(i=0;i<=4;i++){
 		result += payments[i];
 	}
 	
