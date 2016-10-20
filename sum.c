@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "sum.h"
 
-int sum(payments[n]){
-	int result;
+int sum(int payments[]){
+	int result = 0;
 	int i;
-	for(i=1;i<n;i++){
-		result += i;
+	for(i=0;i<=2;i++){
+		result += payments[i];
 	}
 	
 	return result;
